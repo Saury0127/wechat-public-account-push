@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: 'f429e1a8ef701644adf29985fbd5ddc8',
 
   PROVINCE: '甘肃',
-  CITY: '兰州',
+  CITY: '临夏',
 
   USERS: [
     {
@@ -32,9 +32,9 @@ const USER_CONFIG = {
           type: '*生日', name: '宝', year: '1999', date: '12-08',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '相识纪念日', year: '2022', date: '09-26',
-        }，
+        //{
+          //type: '生日', name: '相识纪念日', year: '2022', date: '09-26',
+        //}，
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
